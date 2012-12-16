@@ -1,0 +1,21 @@
+auto: true
+server: true
+permalink: none
+baseurl: "/damani"
+exclude:
+- .gitignore
+- README.md
+
+prose:
+  rooturl: "_posts"
+  metadata: 
+    _posts/pages: |
+      published: false
+      layout: page
+      title: Your Post Title
+      abstract: Short summary of your page.
+      author: Damani Parin
+      image:
+      permalink: title.html
+      tags:
+      - test
