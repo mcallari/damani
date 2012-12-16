@@ -9,12 +9,13 @@ exclude:
 prose:
   rooturl: "_posts"
   metadata: 
-    _posts/articles: |
+    _posts/pages: |
       published: false
-      layout: article
+      layout: page
       title: Your Post Title
-      abstract: Short summary of your article.
-      author_twitter: johndoe
-      author: John Doe
-      categories:
-      - articles
+      abstract: Short summary of your page.
+      author: Damani Parin
+      image:
+      permalink: title.html
+      tags:
+      - test
