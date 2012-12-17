@@ -4,7 +4,7 @@ layout: page
 title: Litigation
 abstract: Short summary of your page.
 author: Damani Parin
-image: http://farm1.staticflickr.com/104/286642374_9414fe558e_z.jpg?zz=1
+image: http://www.gettyimages.com/CMS/StaticContent/1348695736616_animals.jpg
 permalink: litigation.html
 tags:
 - services
