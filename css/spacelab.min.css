@@ -897,3 +897,22 @@ div.subnav .nav>li.dropdown.open>.dropdown-toggle{border-left:1px solid whiteSmo
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+
+
+
+header {
+background-color: #F9F9F9;
+background: url('http://subtlepatterns.com/patterns/white_plaster.png');
+margin-bottom: 30px;
+}
+
+.jumbotron {
+padding-top: 60px;
+position: relative;
+top:-18px;
+}
+
+.subhead {
+padding-bottom: 0;
+border-bottom: 1px solid #999;
+}

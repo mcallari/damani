@@ -1,6 +1,26 @@
 ---
 layout: default
 ---
-<h2 class="content">{{page.title}}</h2>
-<img src="{{ page.image }}" />
-{{ content }}
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span8">
+      <h2 class="content">{{page.title}}</h2>
+      <hr />
+      <img src="{{ page.image }}" />
+      {{ content }}
+    </div>
+    <div class="span4">
+      <h3>Contact Information</h3>
+      <address>
+        <strong>Twitter, Inc.</strong><br>
+        795 Folsom Ave, Suite 600<br>
+        San Francisco, CA 94107<br>
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+      <address>
+        <strong>Full Name</strong><br>
+        <a href="mailto:#">first.last@gmail.com</a>
+      </address>
+    </div>
+  </div>
+</div>
