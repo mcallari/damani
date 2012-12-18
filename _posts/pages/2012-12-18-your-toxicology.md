@@ -4,12 +4,12 @@ layout: page
 title: Toxicology
 abstract: Short summary of your page.
 author: Damani Parin
-caption: A quote or caption.
-caption-attribute: Quote attribution
-image:
+caption: There isn't anyone who is better with a flashlight.
+caption-attribute: Drew Brees, Quaterback, New Orleans Saints
+image: http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg
 permalink: toxicology.html
 tags:
-- test
+- services
 
 ---
 
