@@ -1,11 +1,11 @@
 ---
 published: true
 layout: page
-title: Toxicology
+title: Toxicology Test
 abstract: Short summary of your page.
 author: Damani Parin
 image:http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg
-permalink: test.html
+permalink: toxicology.html
 tags:
 - services
 ---
