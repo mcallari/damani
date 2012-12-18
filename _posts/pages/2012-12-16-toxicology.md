@@ -4,7 +4,9 @@ layout: page
 title: Toxicology
 abstract: Short summary of your page.
 author: Damani Parin
-image:
+caption: No one is better with a flashlight than Damani.
+caption-attribute: Drew Brees, Quaterback, New Orleans Saints
+image:http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg
 permalink: toxicology.html
 tags:
 - services
@@ -18,8 +20,6 @@ PCG toxicologists have expertise in numerous scientific areas of importance in i
 * Food and Dietary Supplements
 * Environmental Poisons
 * Pesticides and Herbicides
-
-![lab work] (http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg)
 
 ###Laboratory Management
 * Preclinical and clinical toxicology support to 
