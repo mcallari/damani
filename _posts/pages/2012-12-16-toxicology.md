@@ -10,7 +10,7 @@ tags:
 - services
 ---
 
-PCG toxicologists have expertise in numerous scientific areas of importance in industrial and animal toxicology, pharmaceutical discovery, product development, safety assessment, regulatory issues & preclinical / clinical studies.
+PCG toxicologists have expertise in numerous scientific areas of importance in industrial and animal toxicology, pharmaceutical discovery, product development, safety assessment, regulatory issues & preclinical / clinical studies. 
 
 ##Product Application: 
 ###Evaluation and risk assessment of:
