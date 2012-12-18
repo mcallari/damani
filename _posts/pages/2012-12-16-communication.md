@@ -4,7 +4,7 @@ layout: page
 title: Communication
 abstract: Short summary of your page.
 author: Damani Parin
-image:
+image: http://fresnobeehive.com/assets_c/2010/10/CSI%20MIAMI-thumb-325x241-39249.jpg
 permalink: communication.html
 tags:
 - services
