@@ -4,8 +4,6 @@ layout: page
 title: Toxicology
 abstract: Short summary of your page.
 author: Damani Parin
-caption: Damani is an an amazing foosball player, and he is untouchable at '90s, pop trivia.
-caption-attribute: Aaron Deutsch, OBGYN
 image:http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg
 permalink: toxicology.html
 tags:
