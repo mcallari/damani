@@ -15,7 +15,16 @@ prose:
       title: Your Post Title
       abstract: Short summary of your page.
       author: Damani Parin
+      caption: A quote or caption.
+      caption-attribute: Quote attribution
       image:
       permalink: title.html
       tags:
       - test
+    _posts/blocks: |
+      published: false
+      layout: block
+      title: Your Block Title
+      permalink: blocks/title.html
+      tags:
+      - block

@@ -2,25 +2,43 @@
 layout: default
 ---
 <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span8">
-      <h2 class="content">{{page.title}}</h2>
-      <hr />
-      <img src="{{ page.image }}" />
-      {{ content }}
-    </div>
-    <div class="span4">
-      <h3>Contact Information</h3>
-      <address>
-        <strong>Twitter, Inc.</strong><br>
-        795 Folsom Ave, Suite 600<br>
-        San Francisco, CA 94107<br>
-        <abbr title="Phone">P:</abbr> (123) 456-7890
-      </address>
-      <address>
-        <strong>Full Name</strong><br>
-        <a href="mailto:#">first.last@gmail.com</a>
-      </address>
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span8">
+        <h2 class="content">{{page.title}}</h2>
+        <img src="{{ page.image }}" class="img-polaroid"/><br>
+        {% if page.quote != nil %}
+        <blockquote>
+          <p>{{ page.caption }}</p>
+          {% if page.caption-attribute != nil %}
+            <small>{{ page.caption-attribute }}</small>
+          {% endif %}
+        </blockquote>
+        {% endif %}
+        <p>{{ content }}</p>
+      </div>
+      <div class="span4">
+      {% for post in site.posts %}
+       {% for tag in post.tags %}
+        {% if tag == "block" %}
+          {% if post.title == "Contact" %}
+            <h2>{{ post.title }}</h2>
+            <address>
+              <strong>{{ post.name }}</strong><br>
+              {{ post.line1 }}<br>
+              {{ post.line2 }}<br>
+              <abbr title="Phone">P:</abbr> {{ post.phone }}<br>
+              <a href="mailto:{{ post.email }}">{{ post.email }}</a>
+            </address>
+            <p>{{ post.content }}</p>
+          {% else %}
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content }}</p>
+          {% endif %}
+        {% endif %}
+       {% endfor %}
+      {% endfor %}
+      </div>
     </div>
   </div>
 </div>

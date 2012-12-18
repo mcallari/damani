@@ -32,45 +32,30 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="{{site.baseurl}}">Parran Consulting Group, LLC</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li><a href="toxicology">Toxicology</a></li>
-              <li><a href="litigation">Litigation</a></li>
-              <li><a href="communication">Communication</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="{{site.baseurl}}">Parran Consulting Group, LLC</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="toxicology">Toxicology</a></li>
+            <li><a href="litigation">Litigation</a></li>
+            <li><a href="communication">Communication</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
-    <header class="jumbotron subhead" id="overview">
-        <div class="container">
-          <div class="row">
-            <div class="span6">
-              <h1>Parran Consulting Group, LLC</h1>
-              <p class="lead">Specializing in toxicological and pharmacological support through preclinical and clinical protocol design, critical peer review, scientific writing and serving as expert witnesses to the Court and litigants.</p>
-            </div>
-            <div class="app-image pull-right">
-              <img src="http://userserve-ak.last.fm/serve/_/36179449/George+Clinton+GC.jpg" alt="Tentacle" />
-            </div>
-          </div>
-        </div>
-    </header>
+  </div>
+
+    {{ content }}
 
     <div class="container">
-
-      {{ content }}
-
-      <hr>
-
+      <hr />
       <footer>
         <p>&copy; Parran Consulting Group, LLC 2012</p>
       </footer>
@@ -80,7 +65,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
 
   </body>
 </html>
