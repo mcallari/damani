@@ -4,6 +4,8 @@ layout: page
 title: Communication
 abstract: Short summary of your page.
 author: Damani Parin
+caption: Damani takes the time to make sure we know how to find drug users.
+caption-attribute: George Lucas
 image: http://fresnobeehive.com/assets_c/2010/10/CSI%20MIAMI-thumb-325x241-39249.jpg
 permalink: communication.html
 tags:
