@@ -5,7 +5,7 @@ title: Toxicology
 abstract: Short summary of your page.
 author: Damani Parin
 image:http://flowtv.org/wp-content/uploads/2007/11/csi1.jpg
-permalink: toxicology.html
+permalink: test.html
 tags:
 - services
 ---
